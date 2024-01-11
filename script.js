@@ -64,17 +64,17 @@ const vm = Vue.createApp({
   //   };
   // },
   // ------------list rendering----------------------
-  data() {
-    return {
-      birds: ["pigeons", "eagles", "dove", "parrots"],
-      people: [
-        { name: "john", age: 20 },
-        { name: "rick", age: 18 },
-        { name: "amy", age: 33 },
-      ],
-    };
-  },
-}).mount(".app");
+//   data() {
+//     return {
+//       birds: ["pigeons", "eagles", "dove", "parrots"],
+//       people: [
+//         { name: "john", age: 20 },
+//         { name: "rick", age: 18 },
+//         { name: "amy", age: 33 },
+//       ],
+//     };
+//   },
+// }).mount(".app");
 
 // setTimeout(function () {
 //   //   vm.$data.firstName = "sheyi";
