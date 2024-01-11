@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+p {
+  font-size: 25px;
+  margin: 5rem 0rem 0rem 5rem;
+}
+[V-cloak] {
+  display: none;
+}
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.color-wrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+}
+.purple {
+  background-color: purple;
+}
+.text-black {
+  color: black !important;
+}
+
+.text-orange {
+  color: orange !important;
+}
