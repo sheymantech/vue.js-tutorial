@@ -4,6 +4,9 @@
   margin: 0;
   font-family: "Bai Jamjuree", sans-serif;
 }
+body {
+  background-color: aliceblue !important;
+}
 
 p {
   font-size: 25px;
@@ -35,4 +38,10 @@ label {
 
 .text-orange {
   color: orange !important;
+}
+.card-wrapper {
+  padding: 1rem;
+  width: 250px;
+  background-color: white;
+  border-radius: 0.8rem;
 }

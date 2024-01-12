@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="app" V-cloak>
-      <p>{{fullName}}</p>
+      <!-- <p>{{fullName}}</p>
       <p V-html="raw_url"></p>
       <p>{{age}}</p>
       <hr />
@@ -41,7 +41,7 @@
       <label>age</label>
       <input type="text" V-model="age" />
       <button type="button" @click="increament">increament</button>
-      <button type="button" @click="age--">decreament</button>
+      <button type="button" @click="age--">decreament</button> -->
 
       <!-- excercise -1-------------------------------------- -->
       <!-- <label>purple</label>
@@ -75,6 +75,35 @@
       </select> -->
 
       <!-- ----------------list rendering------------------- -->
+      <!-- <ul>
+        <li V-for="(bird, index) in birds" :class="bird">
+          {{ bird }} -- {{index}}
+        </li>
+      </ul>
+
+      <hr />
+
+      <ul>
+        <li V-for="person in people">
+          <div V-for="(value,key, index) in person">
+            {{key}} : {{value}} - {{index}}
+          </div>
+        </li>
+      </ul> -->
+      <!-- ------------------Another lecture------------------- -->
+
+      <button type="button" class="move m-5 btn btn-success" @click="move">
+        move to bottom
+      </button>
+      <div
+        class="card-wrapper text-center mx-auto mb-3"
+        V-for="person in people"
+        :key="person.name"
+      >
+        <h3>{{person.name}}</h3>
+        <p class="m-0 p-0">{{person.message}}</p>
+        <input type="text" />
+      </div>
     </div>
     <!-- <div class="app-2">{{firstName}} {{lastName}}</div> -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
