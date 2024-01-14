@@ -75,7 +75,6 @@ const vm = Vue.createApp({
   //   };
   // },
   // -----------------Another lecture-----------------------------
-
   data() {
     return {
       people: [
@@ -100,7 +99,23 @@ const vm = Vue.createApp({
       this.people.push(first);
     },
   },
-}).mount(".app");
+  // -------------mounting the vue instance and some other lectures--------------
+});
+
+vm.component("hello", {
+  template: `<h1>{{message}}</h1>`,
+  data() {
+    return {
+      message: "hello word!",
+    };
+  },
+});
+
+vm.mount(".app");
+
+// setTimeout(() => {
+//   vm.mount(".app");
+// }, 3000);
 
 // setTimeout(function () {
 //   //   vm.$data.firstName = "sheyi";
