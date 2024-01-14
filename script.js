@@ -58,11 +58,11 @@ const vm = Vue.createApp({
   //   },
   // },
   // -----------------exercise 3--------------------------
-  // data() {
-  //   return {
-  //     mode: 1,
-  //   };
-  // },
+  data() {
+    return {
+      mode: 1,
+    };
+  },
   // ------------list rendering----------------------
   // data() {
   //   return {
